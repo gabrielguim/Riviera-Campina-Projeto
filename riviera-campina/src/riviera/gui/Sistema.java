@@ -1,3 +1,5 @@
+package riviera.gui;
+import riviera.resources.*;
 import java.awt.BorderLayout;
 import java.awt.EventQueue;
 
@@ -5,10 +7,14 @@ import javax.swing.JFrame;
 import javax.swing.JPanel;
 import javax.swing.border.EmptyBorder;
 import javax.swing.border.LineBorder;
+
 import java.awt.Color;
 import java.awt.Panel;
+
 import javax.swing.JLabel;
+
 import java.awt.Font;
+
 import javax.swing.ImageIcon;
 import javax.swing.JTextField;
 import javax.swing.JPasswordField;
@@ -16,6 +22,7 @@ import javax.swing.JFormattedTextField;
 import javax.swing.JButton;
 import javax.swing.SwingConstants;
 import javax.swing.UIManager;
+
 import com.jgoodies.forms.factories.DefaultComponentFactory;
 
 
@@ -109,7 +116,7 @@ public class Sistema extends JFrame {
 		panel.add(lblNewLabel_1);
 		
 		JLabel lblNewLabel = new JLabel("");
-		lblNewLabel.setIcon(new ImageIcon("/Users/motioncrazy/Desktop/riviera-sistema-logo.png"));
+		lblNewLabel.setIcon(new ImageIcon(Sistema.class.getResource("/riviera/resources/logo.png")));
 		lblNewLabel.setBounds(273, 124, 414, 75);
 		contentPane.add(lblNewLabel);
 	}

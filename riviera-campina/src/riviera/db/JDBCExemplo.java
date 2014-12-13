@@ -1,3 +1,4 @@
+package riviera.db;
 import java.sql.*;
 import java.util.Calendar;
 import java.util.Scanner;

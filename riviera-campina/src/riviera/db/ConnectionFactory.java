@@ -1,3 +1,4 @@
+package riviera.db;
 import java.sql.*;
 
 public class ConnectionFactory
